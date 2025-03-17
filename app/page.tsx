@@ -106,7 +106,7 @@ export default function LoginForm() {
   };
 
   return (
-    <main
+    <section
       className={styles.main}
       style={{ backgroundImage: "url('/images/img_1854.jpg')" }}
     >
@@ -156,6 +156,6 @@ export default function LoginForm() {
           </p>
         </footer>
       </div>
-    </main>
+    </section>
   );
 }
